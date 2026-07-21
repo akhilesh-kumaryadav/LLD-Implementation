@@ -14,7 +14,7 @@ public class MobileAlertObserver implements NotificationAlertObserverI {
 
     @Override
     public void update() {
-        sendMessage(emailId, "Product is in the stock, hurry up!!!");
+        sendMessage(userName, "Product is in the stock, hurry up!!!");
     }
 
     private void sendMessage(String userName, String message) {
